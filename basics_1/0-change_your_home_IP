@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script configures localhost to point to 127.0.0.2 and facebook.com to point to 8.8.8.8
+sudo bash -c 'echo -e "127.0.0.2 localhost \n 8.8.8.8 facebook.com" > /etc/hosts'
